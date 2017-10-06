@@ -1,0 +1,39 @@
+#container {
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+#query-form {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#search-result table td {
+	white-space: nowrap;
+}
+
+#search-result .term-data:nth-child(odd) {
+	background-color: #eee;
+}
+
+#search-result .symbols td {
+	text-align: center;
+	font-weight: bold;
+	padding: 8px 16px;
+	font-size: 28px;
+}
+
+#search-result .term-lengths td {
+	padding: 6px 12px;
+	text-align: center;
+}
+
+#search-result .term-name {
+	padding: 4px 8px;
+	font-weight: bold;
+}
+
+#search-result .term-val {
+	padding: 4px 4px;
+	text-align: center;
+}
