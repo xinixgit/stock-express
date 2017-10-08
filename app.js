@@ -1,7 +1,7 @@
 var express = require('express');
 var rank = require('./routes/rank');
 var lookup = require('./routes/lookup');
-var configs = require('./configs/configs')
+var configs = require('./utils/configs')
 
 var app = express();
 app.use(express.static('public'));

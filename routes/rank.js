@@ -2,7 +2,7 @@ var express = require('express');
 var mysql = require('mysql');
 
 var router = express.Router();
-var configs = require('../configs/configs')
+var configs = require('../utils/configs')
 
 var pool = mysql.createPool(configs);
 
